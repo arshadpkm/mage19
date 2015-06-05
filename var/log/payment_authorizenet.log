@@ -1,0 +1,149 @@
+2015-05-29T07:08:33+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 145000091
+            [x_amount] => 12
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Arshad
+            [x_last_name] => M
+            [x_company] => 
+            [x_address] => Whitefiled
+            [x_city] => Bangalore
+            [x_state] => 
+            [x_zip] => 560066
+            [x_country] => IN
+            [x_phone] => 9663971140
+            [x_fax] => 
+            [x_cust_id] => 140
+            [x_customer_ip] => 127.0.0.1
+            [x_customer_tax_id] => 
+            [x_email] => me@arshu.in
+            [x_email_customer] => 1
+            [x_merchant_email] => me@arshu.in
+            [x_ship_to_first_name] => Arshad
+            [x_ship_to_last_name] => M
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Whitefiled
+            [x_ship_to_city] => Bangalore
+            [x_ship_to_state] => 
+            [x_ship_to_zip] => 560066
+            [x_ship_to_country] => IN
+            [x_po_num] => 
+            [x_tax] => 0
+            [x_freight] => 10
+            [x_card_num] => ****
+            [x_exp_date] => ****
+            [x_card_code] => ****
+        )
+
+    [result] => Array
+        (
+            [response_code] => 1
+            [response_subcode] => 1
+            [response_reason_code] => 1
+            [response_reason_text] => (TESTMODE) This transaction has been approved.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 145000091
+            [description] => 
+            [amount] => 12.00
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 140
+            [md5_hash] => 85E9BBDE6B65F26401EF9664BDF4E375
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => XXXX0002
+            [card_type] => American Express
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 4300
+)
+
+2015-06-04T13:29:55+00:00 DEBUG (7): Array
+(
+    [request] => Array
+        (
+            [x_version] => 3.1
+            [x_delim_data] => True
+            [x_relay_response] => False
+            [x_test_request] => TRUE
+            [x_login] => ****
+            [x_tran_key] => ****
+            [x_type] => AUTH_CAPTURE
+            [x_method] => CC
+            [x_invoice_num] => 145000091-sub-2
+            [x_amount] => 1
+            [x_currency_code] => USD
+            [x_allow_partial_auth] => False
+            [x_first_name] => Arshad
+            [x_last_name] => M
+            [x_company] => 
+            [x_address] => Whitefiled
+            [x_city] => Bangalore
+            [x_state] => 
+            [x_zip] => 560066
+            [x_country] => IN
+            [x_phone] => 9663971140
+            [x_fax] => 
+            [x_cust_id] => 140
+            [x_customer_ip] => 
+            [x_customer_tax_id] => 
+            [x_email] => me@arshu.in
+            [x_email_customer] => 1
+            [x_merchant_email] => me@arshu.in
+            [x_ship_to_first_name] => Arshad
+            [x_ship_to_last_name] => M
+            [x_ship_to_company] => 
+            [x_ship_to_address] => Whitefiled
+            [x_ship_to_city] => Bangalore
+            [x_ship_to_state] => 
+            [x_ship_to_zip] => 560066
+            [x_ship_to_country] => IN
+            [x_po_num] =>  – 
+            [x_tax] => 
+            [x_freight] => 
+        )
+
+    [result] => Array
+        (
+            [response_code] => 3
+            [response_subcode] => 2
+            [response_reason_code] => 33
+            [response_reason_text] => (TESTMODE) Credit card number is required.
+            [approval_code] => 000000
+            [avs_result_code] => P
+            [transaction_id] => 0
+            [invoice_number] => 145000091-sub-2
+            [description] => 
+            [amount] => 1.00
+            [method] => CC
+            [transaction_type] => auth_capture
+            [customer_id] => 140
+            [md5_hash] => 89AEC57182F9DF989C6789F1D5F1D35C
+            [card_code_response_code] => 
+            [c_av_vresponse_code] => 
+            [split_tender_id] => 
+            [acc_number] => 
+            [card_type] => 
+            [requested_amount] => 
+            [balance_on_card] => 
+        )
+
+    [__pid] => 4300
+)
+

@@ -1,0 +1,76 @@
+<div class="content-header">
+    <table cellspacing="0" class="grid-header">
+        <tr>
+            <td><h3><?=$this->__('Store Setup')?></h3></td>
+            <td class="a-right">
+<button onclick="setLocation('<?php echo Mage::helper('adminhtml')->getUrl('admin_storeconf/adminhtml_storeconf/index')?>')" class="scalable back" type="button"><span>Back</span></button>
+ <button onclick="editForm.submit()" class="scalable save" type="button"><span>Submit</span></button>
+           </td>
+        </tr>
+    </table>
+</div>
+<div class="entry-edit">
+    <form id="edit_form" name="edit_form" method="post" action="<?=$this->getUrl('storesetup/adminhtml_store/setup')?>">
+        <input name="form_key" type="hidden" value="<?php echo Mage::getSingleton('core/session')->getFormKey() ?>" />
+
+        <fieldset id="my-fieldset">
+            <table cellspacing="0" class="form-list">
+                <tr>
+                    <td class="label"><?=$this->__('Store Name')?> <span class="required">*</span></td>
+                    <td class="input-ele"><input class="input-text required-entry" name="storename" />
+                        <p class="note"><span>This is the Store Name</span></p>
+                        <br>
+                    </td>
+                </tr>
+
+
+                   <tr>
+                    <td class="label"><?=$this->__('Url code')?> <span class="required">*</span></td>
+                    <td class="input-ele"><input class="input-text required-entry validate-code" name="code" />
+                        <p class="note"><span>The store code may contain only letters (a-z), numbers (0-9) or underscore(_), the first character must be a letter</span></p>
+                        <br>
+                    </td>
+
+
+                </tr>
+
+                 <tr> <td class="label"><?=$this->__('Seller First Name')?> <span class="required">*</span></td>
+                    <td class="input-ele"><input class="input-text required-entry validate-alpha" name="fname" />
+                        <p class="note"><span>Enter Seller First Name</span></p>
+                        <br></td></tr>
+
+                <tr> <td class="label"><?=$this->__('Seller Last Name')?> <span class="required">*</span></td>
+                    <td class="input-ele"><input class="input-text required-entry validate-alpha" name="lname" />
+                        <p class="note"><span>Enter Seller Last Name</span></p>
+                        <br></td></tr>
+
+                <tr> <td class="label"><?=$this->__('Email')?> <span class="required">*</span></td>
+                    <td class="input-ele"><input type="email" class="input-text required-entry validate-email" name="email" />
+                        <p class="note"><span>Enter Seller Email</span></p>
+                        <br></td></tr>
+
+                <tr> <td class="label"><?=$this->__('Password')?> <span class="required">*</span></td>
+                    <td class="input-ele"><input class="input-text required-entry validate-password" name="password" />
+                        <p class="note"><span>Enter the password</span></p>
+                        <br>
+                    </td></tr>
+           <!--     <tr>
+                    <td class="label"><?/*=$this->__('Status')*/?> <span class="required">*</span></td>
+                    <td class="input-ele"><input  class="input-text required-entry" name="status" />
+                        <p class="note"><span>Controls whether customer IP is shown in orders, invoices, shipments, credit memos.</span></p>
+                    </td>
+
+                </tr>-->
+
+            </table>
+
+                    <!--    <button onclick="editForm.submit()" class="scalable save" type="button"><span>Submit</span></button> -->
+
+        </fieldset>
+    </form>
+</div>
+<script type="text/javascript">
+    var editForm = new varienForm('edit_form');
+    
+
+</script>

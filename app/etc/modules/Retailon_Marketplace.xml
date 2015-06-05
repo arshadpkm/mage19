@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<config>
+	<modules>
+		<Retailon_Marketplace>
+			<active>true</active>
+			<codePool>community</codePool>
+		</Retailon_Marketplace>
+	</modules>
+</config>

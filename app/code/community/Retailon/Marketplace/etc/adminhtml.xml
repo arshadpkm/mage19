@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<config>
+    <menu>
+        <retailon_marketplace module="marketplace">
+            <title>Marketplace</title>
+            <sort_order>100</sort_order>
+            <children>
+                <manage_commission module="marketplace">
+                    <title>Manage Commission</title>
+                    <sort_order>1</sort_order>
+                    <action>marketplace/adminhtml_commission</action>
+                </manage_commission>
+                <manage_vendor module="marketplace">
+                    <title>Manage Vendor</title>
+                    <sort_order>2</sort_order>
+                    <action>marketplace/adminhtml_marketplace</action>
+                </manage_vendor>
+            </children>
+        </retailon_marketplace>
+    </menu>
+</config>

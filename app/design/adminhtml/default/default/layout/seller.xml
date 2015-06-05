@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<layout>
+
+ <selleradmin_adminhtml_store_index>
+            <reference name="content">
+                <block type="seller/adminhtml_store" name="" template="seller/store.phtml" />
+
+            </reference>
+        </selleradmin_adminhtml_store_index>  <!--  routername_adminhtml_controllername_methodname  -->
+
+    <selleradmin_adminhtml_store_display>
+        <reference name="content">
+            <block type="seller/adminhtml_setup" name="" template="seller/setup.phtml" />
+
+        </reference>
+    </selleradmin_adminhtml_store_display>
+    
+      <selleradmin_adminhtml_store_delete>
+        <reference name="content">
+            <block type="seller/adminhtml_delete" name="" template="seller/delete.phtml" />
+
+        </reference>
+    </selleradmin_adminhtml_store_delete>
+    
+    <selleradmin_adminhtml_store_lists>
+        <reference name="content">
+            <block type="seller/adminhtml_lists" name="" template="seller/lists.phtml" />
+
+        </reference>
+    </selleradmin_adminhtml_store_lists>
+    
+    <selleradmin_adminhtml_store_reports>
+        <reference name="content">
+            <block type="seller/adminhtml_reports" name="" template="seller/reports.phtml" />
+
+        </reference>
+    </selleradmin_adminhtml_store_reports>
+    
+    <selleradmin_adminhtml_store_reportsview>
+        <reference name="content">
+            <block type="seller/adminhtml_reportsview" name="" template="seller/reports_view.phtml" />
+
+        </reference>
+    </selleradmin_adminhtml_store_reportsview>
+    
+        <selleradmin_adminhtml_store_commission>
+        <reference name="content">
+            <block type="seller/adminhtml_commission" name="" template="seller/commission.phtml" />
+
+        </reference>
+    </selleradmin_adminhtml_store_commission>
+    
+    
+   <!-- <adminhtml_customer_edit>
+        <reference name="customer_edit_tabs">
+            <action method="addTab">
+                <name>Store Seller Info</name>
+                <block>seller/adminhtml_customer_tab</block>
+            </action>
+        </reference>
+    </adminhtml_customer_edit>-->
+</layout>

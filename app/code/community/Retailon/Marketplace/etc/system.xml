@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+
+<config>
+    <tabs>
+        <retailon translate="label" >
+            <label><![CDATA[<a href="http://retailon.net" target="_blank"><img src="http://retailon.net/rlogo.png" height="30px" alt="RetailOn"></a>]]></label>
+            <sort_order>99</sort_order>
+        </retailon>
+    </tabs>
+    <sections>
+        <marketplace>
+            <label><![CDATA[<p style="font-family:"Comic Sans MS", cursive, sans-serif;"><b>Multi Vendor Marketplace</b></p>]]></label>
+            <tab>retailon</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>1100</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+
+            <groups>
+                <marketplace translate="label" module="marketplace">
+                    <label>Marketplace Options</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+
+                    <fields>
+
+                        <vendors_role translate="label">
+                            <label>Vendors Role</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>marketplace/adminroles</source_model>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </vendors_role>
+
+                        <notify_vendors translate="label">
+                            <label>Notify Vendors?</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>5</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </notify_vendors>
+
+                        <notify_order_status translate="label">
+                            <label>Notify Vendors When Order Is</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_order_status</source_model>
+                            <sort_order>7</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </notify_order_status>
+
+                        <email_template translate="label">
+                            <label>Email Template</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_email_template</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </email_template>
+
+                        <email_from_name translate="label">
+                            <label>Email From Name</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </email_from_name>
+
+                        <email_from translate="label">
+                            <label>Email From</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </email_from>
+                    </fields>
+                </marketplace>
+                <about translate="label">
+                    <label>About This Extension</label>
+                    <expanded>12</expanded>
+                    <sort_order>300</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <fields>
+
+                        <notice translate="label">
+                            <label>Extension Provided By Retailon</label>
+                            <frontend_type>text</frontend_type>
+                            <frontend_model>marketplace/system_html</frontend_model>
+                            <sort_order>14</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </notice>
+                    </fields>
+                </about>
+            </groups>
+        </marketplace>
+    </sections>
+</config>

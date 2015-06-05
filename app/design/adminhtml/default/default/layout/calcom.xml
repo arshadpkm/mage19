@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<layout version="0.1.0">
+    <myrouter_adminhtml_index_index>
+        <reference name="content">
+                    <block type="myblock/adminhtml_grid" name="myblock.grid" />
+        </reference>
+    </myrouter_adminhtml_index_index>
+    
+    <myrouter_adminhtml_index_view>
+        <reference name="content">
+                    <block type="myblock/adminhtml_view" name="myblock.grid.view" />
+        </reference>
+    </myrouter_adminhtml_index_view>
+    
+
+    <!--<myrouter_adminhtml_index_showhistory>-->
+        <!--<reference name="content">-->
+            <!--<block type="myblock/myblock" template="commission/payouthistory.phtml"/>-->
+        <!--</reference>-->
+    <!--</myrouter_adminhtml_index_showhistory>-->
+    
+    
+</layout>

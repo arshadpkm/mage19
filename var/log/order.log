@@ -1,0 +1,4094 @@
+2015-05-27T11:47:20+00:00 DEBUG (7): ----------before----------------
+2015-05-27T11:47:20+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000051
+    [store_id] => 1
+    [quote_id] => 694
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 694
+            [store_id] => 1
+            [created_at] => 2015-05-27 11:45:20
+            [updated_at] => 2015-05-27 11:47:18
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000051
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 11:47:17
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 092a37
+    [created_at] => 2015-05-27 11:47:18
+    [updated_at] => 2015-05-27 11:47:18
+    [entity_id] => 5819
+    [billing_address_id] => 11620
+    [shipping_address_id] => 11621
+    [applied_tax_is_saved] => 1
+    [state] => new
+    [status] => pending
+)
+
+2015-05-27T11:47:20+00:00 DEBUG (7): ----------after----------------
+2015-05-27T12:11:26+00:00 DEBUG (7): ----------before----------------
+2015-05-27T12:11:26+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000052
+    [store_id] => 1
+    [quote_id] => 695
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 695
+            [store_id] => 1
+            [created_at] => 2015-05-27 11:54:50
+            [updated_at] => 2015-05-27 12:11:25
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000052
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 12:11:25
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 85c471
+    [created_at] => 2015-05-27 12:11:26
+    [updated_at] => 2015-05-27 12:11:26
+    [entity_id] => 5820
+    [billing_address_id] => 11622
+    [shipping_address_id] => 11623
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-27T12:11:26+00:00 DEBUG (7): ----------after----------------
+2015-05-27T12:11:27+00:00 DEBUG (7): ----------before----------------
+2015-05-27T12:11:27+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000052
+    [store_id] => 1
+    [quote_id] => 695
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 695
+            [store_id] => 1
+            [created_at] => 2015-05-27 11:54:50
+            [updated_at] => 2015-05-27 12:11:25
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000052
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 12:11:25
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 1663b8
+    [created_at] => 2015-05-27 12:11:26
+    [updated_at] => 2015-05-27 12:11:27
+    [entity_id] => 5820
+    [billing_address_id] => 11622
+    [shipping_address_id] => 11623
+    [applied_tax_is_saved] => 1
+    [state] => new
+    [status] => pending
+)
+
+2015-05-27T12:11:27+00:00 DEBUG (7): ----------after----------------
+2015-05-27T12:22:30+00:00 DEBUG (7): ----------before----------------
+2015-05-27T12:22:30+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000053
+    [store_id] => 1
+    [quote_id] => 696
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 696
+            [store_id] => 1
+            [created_at] => 2015-05-27 12:14:16
+            [updated_at] => 2015-05-27 12:22:29
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000053
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 12:22:29
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => f27df8
+    [created_at] => 2015-05-27 12:22:30
+    [updated_at] => 2015-05-27 12:22:30
+    [entity_id] => 5821
+    [billing_address_id] => 11624
+    [shipping_address_id] => 11625
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-27T12:22:30+00:00 DEBUG (7): ----------after----------------
+2015-05-27T12:22:35+00:00 DEBUG (7): ----------before----------------
+2015-05-27T12:22:35+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000053
+    [store_id] => 1
+    [quote_id] => 696
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 696
+            [store_id] => 1
+            [created_at] => 2015-05-27 12:14:16
+            [updated_at] => 2015-05-27 12:22:29
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000053
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 12:22:29
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 463eb4
+    [created_at] => 2015-05-27 12:22:30
+    [updated_at] => 2015-05-27 12:22:35
+    [entity_id] => 5821
+    [billing_address_id] => 11624
+    [shipping_address_id] => 11625
+    [applied_tax_is_saved] => 1
+    [state] => new
+    [status] => pending
+)
+
+2015-05-27T12:22:35+00:00 DEBUG (7): ----------after----------------
+2015-05-27T13:01:12+00:00 DEBUG (7): ----------before----------------
+2015-05-27T13:01:12+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000058
+    [store_id] => 1
+    [quote_id] => 697
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 697
+            [store_id] => 1
+            [created_at] => 2015-05-27 13:00:12
+            [updated_at] => 2015-05-27 13:01:10
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000058
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 13:01:09
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => ef715a
+    [created_at] => 2015-05-27 13:01:11
+    [updated_at] => 2015-05-27 13:01:11
+    [entity_id] => 5826
+    [billing_address_id] => 11634
+    [shipping_address_id] => 11635
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-27T13:01:12+00:00 DEBUG (7): ----------after----------------
+2015-05-27T14:14:17+00:00 DEBUG (7): ----------before----------------
+2015-05-27T14:14:17+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000061
+    [store_id] => 1
+    [quote_id] => 698
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 698
+            [store_id] => 1
+            [created_at] => 2015-05-27 13:25:35
+            [updated_at] => 2015-05-27 14:14:15
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000061
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 14:14:14
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 4fbdd0
+    [created_at] => 2015-05-27 14:14:16
+    [updated_at] => 2015-05-27 14:14:16
+    [entity_id] => 5829
+    [billing_address_id] => 11640
+    [shipping_address_id] => 11641
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-27T14:14:17+00:00 DEBUG (7): ----------after----------------
+2015-05-27T14:36:08+00:00 DEBUG (7): ----------before----------------
+2015-05-27T14:36:08+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000064
+    [store_id] => 1
+    [quote_id] => 699
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 699
+            [store_id] => 1
+            [created_at] => 2015-05-27 14:33:06
+            [updated_at] => 2015-05-27 14:36:07
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000064
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 14:36:06
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 1c44f6
+    [created_at] => 2015-05-27 14:36:07
+    [updated_at] => 2015-05-27 14:36:07
+    [entity_id] => 5832
+    [billing_address_id] => 11646
+    [shipping_address_id] => 11647
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-27T14:36:08+00:00 DEBUG (7): ----------after----------------
+2015-05-27T14:55:57+00:00 DEBUG (7): ----------before----------------
+2015-05-27T14:55:57+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000067
+    [store_id] => 1
+    [quote_id] => 700
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 700
+            [store_id] => 1
+            [created_at] => 2015-05-27 14:53:16
+            [updated_at] => 2015-05-27 14:55:57
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000067
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-27 14:55:56
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => a0f42e
+    [created_at] => 2015-05-27 14:55:57
+    [updated_at] => 2015-05-27 14:55:57
+    [entity_id] => 5835
+    [billing_address_id] => 11652
+    [shipping_address_id] => 11653
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-27T14:55:57+00:00 DEBUG (7): ----------after----------------
+2015-05-28T06:34:16+00:00 DEBUG (7): ----------before----------------
+2015-05-28T06:34:16+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000068
+    [store_id] => 1
+    [quote_id] => 701
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 701
+            [store_id] => 1
+            [created_at] => 2015-05-28 06:13:02
+            [updated_at] => 2015-05-28 06:34:14
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 1
+            [items_qty] => 1
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 6
+            [base_grand_total] => 6
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000068
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 1
+            [base_subtotal] => 1
+            [subtotal_with_discount] => 1
+            [base_subtotal_with_discount] => 1
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 06:34:13
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 6
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 1
+    [weight] => 1
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 1
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 5
+    [shipping_incl_tax] => 5
+    [shipping_tax_amount] => 0
+    [grand_total] => 6
+    [base_subtotal] => 1
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 5
+    [base_shipping_incl_tax] => 5
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 6
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 1
+    [base_subtotal_incl_tax] => 1
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 1
+    [protect_code] => 48b39e
+    [created_at] => 2015-05-28 06:34:15
+    [updated_at] => 2015-05-28 06:34:15
+    [entity_id] => 5838
+    [billing_address_id] => 11658
+    [shipping_address_id] => 11659
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T06:34:16+00:00 DEBUG (7): ----------after----------------
+2015-05-28T06:51:37+00:00 DEBUG (7): ----------before----------------
+2015-05-28T06:51:37+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000069
+    [store_id] => 1
+    [quote_id] => 702
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 702
+            [store_id] => 1
+            [created_at] => 2015-05-28 06:49:37
+            [updated_at] => 2015-05-28 06:51:36
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 1
+            [items_qty] => 1
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 6
+            [base_grand_total] => 6
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000069
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 1
+            [base_subtotal] => 1
+            [subtotal_with_discount] => 1
+            [base_subtotal_with_discount] => 1
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 06:51:35
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 6
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 1
+    [weight] => 1
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 1
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 5
+    [shipping_incl_tax] => 5
+    [shipping_tax_amount] => 0
+    [grand_total] => 6
+    [base_subtotal] => 1
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 5
+    [base_shipping_incl_tax] => 5
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 6
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 1
+    [base_subtotal_incl_tax] => 1
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 1
+    [protect_code] => f58018
+    [created_at] => 2015-05-28 06:51:36
+    [updated_at] => 2015-05-28 06:51:36
+    [entity_id] => 5840
+    [billing_address_id] => 11662
+    [shipping_address_id] => 11663
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T06:51:37+00:00 DEBUG (7): ----------after----------------
+2015-05-28T07:00:05+00:00 DEBUG (7): ----------before----------------
+2015-05-28T07:00:05+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000071
+    [store_id] => 1
+    [quote_id] => 704
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 704
+            [store_id] => 1
+            [created_at] => 2015-05-28 06:59:26
+            [updated_at] => 2015-05-28 07:00:04
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 12
+            [base_grand_total] => 12
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000071
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 2
+            [base_subtotal] => 2
+            [subtotal_with_discount] => 2
+            [base_subtotal_with_discount] => 2
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 07:00:03
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 12
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 2
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 12
+    [base_subtotal] => 2
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 12
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 2
+    [base_subtotal_incl_tax] => 2
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 410fa5
+    [created_at] => 2015-05-28 07:00:04
+    [updated_at] => 2015-05-28 07:00:04
+    [entity_id] => 5843
+    [billing_address_id] => 11668
+    [shipping_address_id] => 11669
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T07:00:05+00:00 DEBUG (7): ----------after----------------
+2015-05-28T07:42:13+00:00 DEBUG (7): ----------before----------------
+2015-05-28T07:42:13+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 07:42:13
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 07:42:12
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 9ce089
+    [created_at] => 2015-05-28 07:42:13
+    [updated_at] => 2015-05-28 07:42:13
+    [entity_id] => 5846
+    [billing_address_id] => 11674
+    [shipping_address_id] => 11675
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T07:42:13+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:44:12+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:44:12+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:44:10
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:44:09
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 31b3db
+    [created_at] => 2015-05-28 09:44:10
+    [updated_at] => 2015-05-28 09:44:10
+    [entity_id] => 5849
+    [billing_address_id] => 11680
+    [shipping_address_id] => 11681
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:44:12+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:45:00+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:45:00+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:44:59
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:44:58
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => af1cbc
+    [created_at] => 2015-05-28 09:44:59
+    [updated_at] => 2015-05-28 09:44:59
+    [entity_id] => 5852
+    [billing_address_id] => 11686
+    [shipping_address_id] => 11687
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:45:00+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:46:42+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:46:42+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:46:41
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:46:41
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 45cb66
+    [created_at] => 2015-05-28 09:46:42
+    [updated_at] => 2015-05-28 09:46:42
+    [entity_id] => 5855
+    [billing_address_id] => 11692
+    [shipping_address_id] => 11693
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:46:42+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:47:46+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:47:46+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:47:45
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:47:45
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => a66db0
+    [created_at] => 2015-05-28 09:47:46
+    [updated_at] => 2015-05-28 09:47:46
+    [entity_id] => 5858
+    [billing_address_id] => 11698
+    [shipping_address_id] => 11699
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:47:46+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:54:28+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:54:28+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:54:28
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:54:27
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 8fc48b
+    [created_at] => 2015-05-28 09:54:28
+    [updated_at] => 2015-05-28 09:54:28
+    [entity_id] => 5861
+    [billing_address_id] => 11704
+    [shipping_address_id] => 11705
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:54:28+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:54:50+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:54:50+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:54:49
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:54:49
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 1ae192
+    [created_at] => 2015-05-28 09:54:50
+    [updated_at] => 2015-05-28 09:54:50
+    [entity_id] => 5862
+    [billing_address_id] => 11706
+    [shipping_address_id] => 11707
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:54:50+00:00 DEBUG (7): ----------after----------------
+2015-05-28T09:58:31+00:00 DEBUG (7): ----------before----------------
+2015-05-28T09:58:31+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 09:58:30
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 09:58:29
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 133357
+    [created_at] => 2015-05-28 09:58:31
+    [updated_at] => 2015-05-28 09:58:31
+    [entity_id] => 5863
+    [billing_address_id] => 11708
+    [shipping_address_id] => 11709
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T09:58:31+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:00:58+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:00:58+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:00:57
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:00:56
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => e37309
+    [created_at] => 2015-05-28 10:00:58
+    [updated_at] => 2015-05-28 10:00:58
+    [entity_id] => 5866
+    [billing_address_id] => 11714
+    [shipping_address_id] => 11715
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:00:58+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:04:43+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:04:43+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:04:41
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:04:37
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => 21f8b8
+    [created_at] => 2015-05-28 10:04:42
+    [updated_at] => 2015-05-28 10:04:42
+    [entity_id] => 5869
+    [billing_address_id] => 11720
+    [shipping_address_id] => 11721
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:04:43+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:07:20+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:07:20+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:07:20
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:07:19
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => f029d1
+    [created_at] => 2015-05-28 10:07:20
+    [updated_at] => 2015-05-28 10:07:20
+    [entity_id] => 5872
+    [billing_address_id] => 11726
+    [shipping_address_id] => 11727
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:07:20+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:14:27+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:14:27+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:14:26
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 2
+            [items_qty] => 2
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 71
+            [base_grand_total] => 71
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 61
+            [base_subtotal] => 61
+            [subtotal_with_discount] => 61
+            [base_subtotal_with_discount] => 61
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:14:25
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 71
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 2
+    [weight] => 2
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 61
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 10
+    [shipping_incl_tax] => 10
+    [shipping_tax_amount] => 0
+    [grand_total] => 71
+    [base_subtotal] => 61
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 10
+    [base_shipping_incl_tax] => 10
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 71
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 61
+    [base_subtotal_incl_tax] => 61
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 2
+    [protect_code] => f02c31
+    [created_at] => 2015-05-28 10:14:26
+    [updated_at] => 2015-05-28 10:14:26
+    [entity_id] => 5875
+    [billing_address_id] => 11732
+    [shipping_address_id] => 11733
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:14:27+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:20:45+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:20:45+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:20:44
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 3
+            [items_qty] => 3
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 77
+            [base_grand_total] => 77
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 62
+            [base_subtotal] => 62
+            [subtotal_with_discount] => 62
+            [base_subtotal_with_discount] => 62
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:20:44
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 77
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 3
+    [weight] => 3
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 62
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 15
+    [shipping_incl_tax] => 15
+    [shipping_tax_amount] => 0
+    [grand_total] => 77
+    [base_subtotal] => 62
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 15
+    [base_shipping_incl_tax] => 15
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 77
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 62
+    [base_subtotal_incl_tax] => 62
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 3
+    [protect_code] => d44971
+    [created_at] => 2015-05-28 10:20:45
+    [updated_at] => 2015-05-28 10:20:45
+    [entity_id] => 5878
+    [billing_address_id] => 11738
+    [shipping_address_id] => 11739
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:20:45+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:22:02+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:22:02+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:22:01
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 3
+            [items_qty] => 3
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 77
+            [base_grand_total] => 77
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 62
+            [base_subtotal] => 62
+            [subtotal_with_discount] => 62
+            [base_subtotal_with_discount] => 62
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:22:01
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 77
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 3
+    [weight] => 3
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 62
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 15
+    [shipping_incl_tax] => 15
+    [shipping_tax_amount] => 0
+    [grand_total] => 77
+    [base_subtotal] => 62
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 15
+    [base_shipping_incl_tax] => 15
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 77
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 62
+    [base_subtotal_incl_tax] => 62
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 3
+    [protect_code] => 19428b
+    [created_at] => 2015-05-28 10:22:02
+    [updated_at] => 2015-05-28 10:22:02
+    [entity_id] => 5881
+    [billing_address_id] => 11744
+    [shipping_address_id] => 11745
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:22:02+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:27:43+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:27:43+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000072
+    [store_id] => 1
+    [quote_id] => 705
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 705
+            [store_id] => 1
+            [created_at] => 2015-05-28 07:28:23
+            [updated_at] => 2015-05-28 10:27:42
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 3
+            [items_qty] => 3
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 77
+            [base_grand_total] => 77
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000072
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 62
+            [base_subtotal] => 62
+            [subtotal_with_discount] => 62
+            [base_subtotal_with_discount] => 62
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:27:42
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 77
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 3
+    [weight] => 3
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 62
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 15
+    [shipping_incl_tax] => 15
+    [shipping_tax_amount] => 0
+    [grand_total] => 77
+    [base_subtotal] => 62
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 15
+    [base_shipping_incl_tax] => 15
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 77
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 62
+    [base_subtotal_incl_tax] => 62
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 3
+    [protect_code] => 6aeffe
+    [created_at] => 2015-05-28 10:27:43
+    [updated_at] => 2015-05-28 10:27:43
+    [entity_id] => 5884
+    [billing_address_id] => 11750
+    [shipping_address_id] => 11751
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:27:43+00:00 DEBUG (7): ----------after----------------
+2015-05-28T10:34:54+00:00 DEBUG (7): ----------before----------------
+2015-05-28T10:34:54+00:00 DEBUG (7): Array
+(
+    [increment_id] => 145000073
+    [store_id] => 1
+    [quote_id] => 706
+    [quote (Mage_Sales_Model_Quote)] => Array
+        (
+            [entity_id] => 706
+            [store_id] => 1
+            [created_at] => 2015-05-28 10:32:34
+            [updated_at] => 2015-05-28 10:34:53
+            [is_active] => 1
+            [is_virtual] => 0
+            [is_multi_shipping] => 0
+            [items_count] => 3
+            [items_qty] => 3
+            [orig_order_id] => 0
+            [store_to_base_rate] => 1
+            [store_to_quote_rate] => 1
+            [base_currency_code] => USD
+            [store_currency_code] => USD
+            [quote_currency_code] => USD
+            [grand_total] => 77
+            [base_grand_total] => 77
+            [customer_id] => 140
+            [customer_tax_class_id] => 3
+            [customer_group_id] => 1
+            [customer_email] => me@arshu.in
+            [customer_firstname] => Arshad
+            [customer_lastname] => M
+            [customer_note_notify] => 1
+            [customer_is_guest] => 0
+            [remote_ip] => 127.0.0.1
+            [applied_rule_ids] => 
+            [reserved_order_id] => 145000073
+            [global_currency_code] => USD
+            [base_to_global_rate] => 1
+            [base_to_quote_rate] => 1
+            [subtotal] => 62
+            [base_subtotal] => 62
+            [subtotal_with_discount] => 62
+            [base_subtotal_with_discount] => 62
+            [is_changed] => 1
+            [trigger_recollect] => 0
+            [is_persistent] => 0
+            [virtual_items_qty] => 0
+            [taxes_for_items] => Array
+                (
+                )
+
+            [can_apply_msrp] => 
+            [totals_collected_flag] => 1
+            [inventory_processed] => 1
+        )
+
+    [customer (Mage_Customer_Model_Customer)] => Array
+        (
+            [website_id] => 1
+            [entity_id] => 140
+            [entity_type_id] => 1
+            [attribute_set_id] => 0
+            [email] => me@arshu.in
+            [group_id] => 1
+            [store_id] => 1
+            [created_at] => 2015-05-26T07:36:27+00:00
+            [updated_at] => 2015-05-28 10:34:53
+            [is_active] => 1
+            [disable_auto_group_change] => 0
+            [default_billing] => 96
+            [default_shipping] => 96
+            [created_in] => English
+            [firstname] => Arshad
+            [lastname] => M
+            [password_hash] => 1d3714765c4217517246b3b252fb7a4e:UWAWo1MdnedxahK47CILWAytKB9vJAeL
+            [tax_class_id] => 3
+            [parent_id] => 0
+        )
+
+    [remote_ip] => 127.0.0.1
+    [customer_id] => 140
+    [customer_email] => me@arshu.in
+    [customer_firstname] => Arshad
+    [customer_lastname] => M
+    [customer_group_id] => 1
+    [customer_tax_class_id] => 3
+    [customer_note_notify] => 1
+    [customer_is_guest] => 0
+    [quote_base_grand_total] => 77
+    [global_currency_code] => USD
+    [base_currency_code] => USD
+    [store_currency_code] => USD
+    [order_currency_code] => USD
+    [store_to_base_rate] => 1.0000
+    [store_to_order_rate] => 1.0000
+    [base_to_global_rate] => 1.0000
+    [base_to_order_rate] => 1.0000
+    [is_virtual] => 0
+    [applied_rule_ids] => 
+    [total_qty_ordered] => 3
+    [weight] => 3
+    [shipping_method] => flatrate_flatrate
+    [shipping_description] => Flat Rate - Fixed
+    [subtotal] => 62
+    [tax_amount] => 0
+    [discount_amount] => 0
+    [shipping_amount] => 15
+    [shipping_incl_tax] => 15
+    [shipping_tax_amount] => 0
+    [grand_total] => 77
+    [base_subtotal] => 62
+    [base_tax_amount] => 0
+    [base_discount_amount] => 0
+    [base_shipping_amount] => 15
+    [base_shipping_incl_tax] => 15
+    [base_shipping_tax_amount] => 0
+    [base_grand_total] => 77
+    [hidden_tax_amount] => 0
+    [base_hidden_tax_amount] => 0
+    [shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amount] => 0
+    [base_shipping_hidden_tax_amnt] => 0
+    [discount_description] => 
+    [shipping_discount_amount] => 0
+    [base_shipping_discount_amount] => 0
+    [subtotal_incl_tax] => 62
+    [base_subtotal_incl_tax] => 62
+    [applied_taxes] => Array
+        (
+        )
+
+    [converting_from_quote] => 1
+    [store_name] => Main Website
+Madison Island
+English
+    [total_item_count] => 3
+    [protect_code] => 6e8e95
+    [created_at] => 2015-05-28 10:34:54
+    [updated_at] => 2015-05-28 10:34:54
+    [entity_id] => 5889
+    [billing_address_id] => 11760
+    [shipping_address_id] => 11761
+    [applied_tax_is_saved] => 1
+)
+
+2015-05-28T10:34:54+00:00 DEBUG (7): ----------after----------------

@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+
+<config>
+	<modules>
+		<Retailon_Marketplace>
+			<version>1.0.0</version>
+		</Retailon_Marketplace>
+	</modules>
+	
+	<global>
+		<helpers>
+			<marketplace>
+				<class>Retailon_Marketplace_Helper</class>
+			</marketplace>
+		</helpers>
+		
+		<models>
+            <marketplace>
+                <class>Retailon_Marketplace_Model</class>
+                <resourceModel>marketplace_mysql4</resourceModel>
+            </marketplace>
+			
+			<marketplace_mysql4>
+				<class>Retailon_Marketplace_Model_Mysql4</class>
+				<entities>		  
+					<marketplaceproducts>
+						<table>retailon_marketplace_products</table>
+					</marketplaceproducts>
+				</entities>
+			</marketplace_mysql4>
+
+			<catalog>
+				<rewrite>
+					<product>Retailon_Marketplace_Model_Product</product>
+				</rewrite>
+			</catalog>
+		</models>
+		
+		<resources>
+			<marketplace_setup>
+                <setup>
+                    <module>Retailon_Marketplace</module>
+                </setup>
+				
+				<connection>
+					<use>core_setup</use>
+				</connection>
+			</marketplace_setup>
+			
+			<marketplace_write>
+				<connection>
+					<use>core_write</use>
+				</connection>
+			</marketplace_write>
+			
+			<marketplace_read>
+				<connection>
+					<use>core_read</use>
+				</connection>
+			</marketplace_read>
+		</resources>
+		
+		<template>
+			<email>
+				<retailon_marketplace_email>
+					<label>Marketplace Vendor New Order Email</label>
+					<file>marketplace/vendor_order_new.html</file>
+					<type>html</type>
+				</retailon_marketplace_email>
+			</email>
+		</template>
+		
+		<events>
+			<sales_order_save_after>
+				<observers>
+					<retailon_marketplace_orderobserver>
+						<type>singleton</type>
+						<class>Retailon_Marketplace_Model_Orderobserver</class>
+						<method>orderSaved</method>
+					</retailon_marketplace_orderobserver>
+				</observers>
+			</sales_order_save_after>
+		</events>
+	</global>
+	
+	<default>
+		<marketplace>
+			<marketplace>
+				<vendors_role></vendors_role>
+				<notify_vendors>1</notify_vendors>
+				<notify_order_status>processing</notify_order_status>
+				<email_template></email_template>
+				<email_from_name>My Store</email_from_name>
+				<email_from>my@store.com</email_from>
+			</marketplace>
+		</marketplace>
+	</default>
+	
+	<adminhtml>
+		<events>
+			<catalog_product_collection_load_before>
+				<observers>
+					<retailon_marketplace_productobserver>
+						<type>singleton</type>
+						<class>Retailon_Marketplace_Model_Productobserver</class>
+						<method>limitUsers</method>
+					</retailon_marketplace_productobserver>
+				</observers>
+			</catalog_product_collection_load_before>
+			
+			<catalog_product_save_after>
+				<observers>
+					<retailon_marketplace_productobserver>
+						<type>singleton</type>
+						<class>Retailon_Marketplace_Model_Productobserver</class>
+						<method>newProduct</method>
+					</retailon_marketplace_productobserver>
+				</observers>
+			</catalog_product_save_after>
+			
+			<catalog_product_edit_action>
+				<observers>
+					<retailon_marketplace_productobserver>
+						<type>singleton</type>
+						<class>Retailon_Marketplace_Model_Productobserver</class>
+						<method>editProduct</method>
+					</retailon_marketplace_productobserver>
+				</observers>
+			</catalog_product_edit_action>
+			
+			<catalog_product_delete_before>
+				<observers>
+					<retailon_marketplace_productobserver>
+						<type>singleton</type>
+						<class>Retailon_Marketplace_Model_Productobserver</class>
+						<method>deleteProduct</method>
+					</retailon_marketplace_productobserver>
+				</observers>
+			</catalog_product_delete_before>
+		</events>
+		
+		<acl>
+			<resources>
+				<admin>
+					<children>
+						<system>
+							<children>
+								<config>
+									<children>
+										<marketplace translate="title" module="marketplace">
+											<title>Super Simple Marketplace</title>
+										</marketplace>
+									</children>
+								</config>
+							</children>
+						</system>
+					</children>
+				</admin>
+			</resources>
+		</acl>
+
+		<layout>
+			<updates>
+				<retailon_marketplace>
+					<file>marketplace.xml</file>
+				</retailon_marketplace>
+			</updates>
+		</layout>
+	</adminhtml>
+	
+	<admin>
+		<routers>
+			<marketplace>
+				<use>admin</use>
+				<args>
+					<module>Retailon_Marketplace</module>
+					<frontName>marketplace</frontName>
+				</args>
+			</marketplace>
+		</routers>
+	</admin>
+
+</config> 

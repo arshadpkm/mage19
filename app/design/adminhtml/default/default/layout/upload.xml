@@ -1,0 +1,8 @@
+<layout>
+    <upload_adminhtml_index_index>
+        <reference name="content">
+        <block type="retailon_bulkimageupload/adminhtml_upload" name="upload" template="bulkimageupload/show.phtml">
+        </block>
+        </reference>
+    </upload_adminhtml_index_index>
+</layout>

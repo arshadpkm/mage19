@@ -1,0 +1,64 @@
+<div id="page:main-container">
+    <div id="messages"></div>
+    <div class="content-header">
+        <h3 class="icon-head head-system-account">Bulk Image Upload</h3>
+    </div>
+    <div class="entry-edit">
+        <div class="entry-edit-head">
+                <h4 class="icon-head head-edit-form fieldset-legend">Upload The .zip File</h4>
+                <div class="form-buttons"></div>
+            </div>
+            <div class="fieldset " id="base_fieldset">
+                <div class="hor-scroll">
+                    <table cellspacing="0" class="form-list">
+                        <tbody>
+
+                        <tr>
+                            <td>
+                            <form id="edit_form" method="post" action="show.phtml" enctype="multipart/form-data">
+                                <label for="file">Filename:</label>
+                                <input type="file" name="file" id="file"><br>
+                                <input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey(); ?>" />
+                               <td> <button type="submit">Upload</button> </td>
+                            </form> </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<?php
+if ($_FILES["file"]["error"] > 0) {
+echo "Error: " . $_FILES["file"]["error"] . "<br>";
+} else {
+$temp = explode(".", $_FILES["file"]["name"]);
+$extension = end($temp);
+$filename=$_FILES["file"]["name"];
+$tmp=$_FILES["file"]["tmp_name"];
+if($extension!='zip')
+{ echo "Only Zip files are supported"; }
+else {
+//echo "Size: " . ($_FILES["file"]["size"] / 1024) . " kB<br>";
+$des=MAGENTO_ROOT."/".$filename;
+move_uploaded_file($tmp,$des);
+$this->extract($des);
+unlink($des);
+}
+}
+?>

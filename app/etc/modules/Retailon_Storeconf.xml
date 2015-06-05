@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+  <modules>
+    <Retailon_Storeconf>
+      <active>true</active>
+      <codePool>community</codePool>
+      <version>0.1.0</version>
+    </Retailon_Storeconf>
+  </modules>
+</config>

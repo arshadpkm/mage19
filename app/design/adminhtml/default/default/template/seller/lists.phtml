@@ -1,0 +1,93 @@
+<?php
+$storeconf = Mage::getSingleton('storeconf/storeconf')->getCollection();
+
+
+
+if(isset($_GET['submit_search']))
+{
+$store_name=$_GET['store_name'];
+
+if($store_name)
+{
+$storeconf->addFieldToFilter('store_display_name', array(
+    array('like' => '% '.$store_name.' %'), //spaces on each side
+    array('like' => '% '.$store_name), //space before and ends with $needle
+    array('like' => $store_name.' %') // starts with needle and space after
+));
+}
+
+
+}
+$back = Mage::helper('adminhtml')->getUrl('storesetup/adminhtml_store/lists');
+
+?>
+
+
+<div class="content-header">
+    <table cellspacing="0">
+        <tbody><tr>
+            <td style="width:50%;"><h3 class="icon-head head-adminhtml-storeconf">Delete Store</h3></td>
+            <td class="form-buttons">
+             
+     <button id="" title="Reset Filter" type="button" class="scalable " onclick="setLocation('<?php echo $back ?>');" style=""><span><span><span>Reset Filter</span></span></span></button>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+<div id="storeconfGrid">
+        <table class="actions" cellspacing="0">
+        <tbody>
+    </tbody></table>
+<div class="grid">
+    <div class="hor-scroll">
+    <table class="data" id="storeconfGrid_table" cellspacing="4">
+                <thead>
+                                    <tr class="headings">
+                  
+                                            <th width="8"><span class="nobr"><a href="#" name="store_contact" title="asc" class="not-sort"><span class="sort-title">Store Id</span></a></span></th>
+                                            <th><span class="nobr"><a href="#" name="store_email" title="asc" class="not-sort"><span class="sort-title">Store  Name</span></a></span></th>
+                                            <th><span class="nobr"><a href="#" name="store_open_time" title="asc" class="not-sort"><span class="sort-title">Seller Email</span></a></span></th>
+                                            <th><span class="nobr"><a href="#" name="store_close_time" title="asc" class="not-sort"><span class="sort-title">Store Contact</span></a></span></th>
+                                              <th><span class="nobr"><a href="#" name="store_close_time" title="asc" class="not-sort"><span class="sort-title">Action</span></a></span></th>
+                                           
+                                          
+                                        </tr>
+                                        <form action="" method="GET">
+                                                    <tr class="filter">
+  <th></th>
+ <th><div class="field-100"><input  name="store_name" id="storeconfGrid_filter_store_email" value="<?php if($store_name) { echo $store_name;} ?>" class="input-text no-changes" type="text"></div></th>
+ <th></th>
+  <th> <input type="submit" name="submit_search" style="display:none"></th>
+ <th></th>                               
+                                             
+                                                  
+ </tr>
+
+ </form>
+</thead>
+                
+<tbody>
+
+<?php 
+
+foreach($storeconf as $data): 
+
+//$seller_email = Mage::getSingleton('customer/customer')->load($data->getSellerId())->getEmail();
+?>
+
+<tr class="even pointer" onclick="setLocation('<?php echo Mage::helper("adminhtml")->getUrl('storesetup/adminhtml_store/delete',array('id'=>$data->getId()))?>')"  title="<?php echo $data->getStoreDisplayName()?>">
+            
+<td class="a-right a-right "><?php echo $data->getId()?> </td>
+ <td class=" "> <?php echo $data->getActualStoreName()?> </td>
+
+<td class=" "> <?php echo $data->getSellerEmail() ?> </td>
+<td class=" "> <?php echo $data->getStoreContact()?> </td> </a>
+<td class=" "><a href="<?php echo Mage::helper("adminhtml")->getUrl('storesetup/adminhtml_store/delete',array('id'=>$data->getId()))?>">View</a> </td>
+</tr>
+<?php endforeach; ?>
+ </tbody>
+
+    </table>
+    </div>
+</div>
+</div>

@@ -1,0 +1,58 @@
+<?php
+/**
+ * Custom tab template
+ */
+$a =Mage::getModel('seller/seller')->getCollection();
+?>
+<div id="customer_info_tabs_customer_edit_tab_action_content">
+    <div class="entry-edit">
+        <div class="entry-edit-head">
+            <h4 class="icon-head head-edit-form fieldset-legend">Store Info</h4>
+        </div>
+        <div id="group_fields4" class="fieldset fieldset-wide">
+            <div class="hor-scroll">
+                <h2 >Registration Form</h2>
+                <table >
+                    <form id="myForm" method="POST" action="" >
+                        <input type="hidden" name="form_key" value="<?php echo Mage::getSingleton('core/session')->getFormKey(); ?>" />
+                        <tr>
+                        <tr><td>Name :</td><td><input type="text" name="name" required></td></tr>
+                        <!--<tr><td>SarName :</td><td><input type="text" name="sarname" required></td></tr>
+                        <tr><td>Birthday :</td><td><input type="date" name="bday" required></td></tr>
+                        <tr><td>E-mail :</td><td><input type="email" name="email" required></td></tr>
+                        <tr><td>Password :</td><td><input type="password" name="password" required></td></tr>
+                        <tr><td>re-Password :</td><td><input type="password" name="passward" required></td></tr>-->
+                        <tr><td><button type="submit" name="submit" id="submit">submit</button></td> </tr>
+                        </tr>
+                        <span id="error" style="display:none; color:#F00">Some Error!Please Fill form Properly </span>
+                        <span id="success" style="display:none; color:#0C0">All the records are submitted!</span>
+                    </form>
+                </table>
+                <div id="formSuccess" style="display:none;">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_JS).'js/jquery.js' ?>"></script>
+<script type="text/javascript">
+    jQuery.noConflict();
+    jQuery(document).ready(function(){
+        jQuery('#myForm').on('submit',function(event) {
+            jQuery.ajax({
+                url:'<?php echo  Mage::helper("adminhtml")->getUrl("storeinfo/adminhtml_store/store") ?>',          //target file
+                data:jQuery(this).serialize(),    //translate data structure and object
+                type:'POST',
+                success:function(data){
+                    alert(data);
+                    console.log(data);
+                    jQuery("#success").show();       // Show Success Message==
+                },
+                error:function(data){
+
+                    jQuery("#error").show().fadeOut(5000);   //===Show Error Message====
+                }
+            });
+            event.preventDefault();         //To Avoid Page Refresh and Fire the Event "Click"
+        });
+    });
+</script>

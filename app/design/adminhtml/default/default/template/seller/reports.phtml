@@ -1,0 +1,192 @@
+<?php
+$storeconf = Mage::getSingleton('storeconf/storeconf')->getCollection();
+
+
+
+if(isset($_GET['submit_search']))
+{
+$store_name=$_GET['store_name'];
+
+if($store_name)
+{
+$storeconf->addFieldToFilter('store_display_name', array(
+    array('like' => '% '.$store_name.' %'), //spaces on each side
+    array('like' => '% '.$store_name), //space before and ends with $needle
+    array('like' => $store_name.' %') // starts with needle and space after
+));
+}
+
+
+}
+$back = Mage::helper('adminhtml')->getUrl('storesetup/adminhtml_store/reports');
+
+?>
+
+
+<div class="content-header">
+    <table cellspacing="0">
+        <tbody><tr>
+            <td style="width:50%;"><h3 class="icon-head head-adminhtml-storeconf">Store Sales Report</h3></td>
+            <td class="form-buttons">
+             
+     <button id="" title="Reset Filter" type="button" class="scalable " onclick="setLocation('<?php echo $back ?>');" style=""><span><span><span>Reset Filter</span></span></span></button>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+<div id="storeconfGrid">
+        <table class="actions" cellspacing="0">
+        <tbody>
+    </tbody></table>
+<div class="grid">
+    <div class="hor-scroll">
+    <table class="data" id="storeconfGrid_table" cellspacing="4">
+                <thead>
+                                    <tr class="headings">
+                  
+                                            <th width="8"><span class="nobr"><a href="#" name="store_contact" title="asc" class="not-sort"><span class="sort-title">Store Id</span></a></span></th>
+                                            <th><span class="nobr"><a href="#" name="store_email" title="asc" class="not-sort"><span class="sort-title">Store  Name</span></a></span></th>
+                                          
+                                           <th width="12"><span class="nobr"><a href="#" name="store_email" title="asc" class="not-sort"><span class="sort-title">Total Sales</span></a></span></th>
+                                           
+                                            <th width="12"><span class="nobr"><a href="#" name="store_email" title="asc" class="not-sort"><span class="sort-title">Average Sales</span></a></span></th>
+                                            
+                                            <th width="8"><span class="nobr"><a href="#" name="store_email" title="asc" class="not-sort"><span class="sort-title">Store View Count</span></a></span></th>
+                                           
+                                              <th><span class="nobr"><a href="#" name="store_close_time" title="asc" class="not-sort"><span class="sort-title">Action</span></a></span></th>
+                                           
+                                          
+                                        </tr>
+                                        <form action="" method="GET">
+                                                    <tr class="filter">
+  <th></th>
+ <th><div class="field-100"><input  name="store_name" id="storeconfGrid_filter_store_email" value="<?php if($store_name) { echo $store_name;} ?>" class="input-text no-changes" type="text"></div></th>
+ <th></th>
+ <th></th>
+  <th></th>
+  <th> <input type="submit" name="submit_search" style="display:none"></th>
+                             
+                                             
+                                                  
+ </tr>
+
+ </form>
+</thead>
+                
+<tbody>
+
+<?php 
+
+foreach($storeconf as $data): 
+
+$seller_email = Mage::getSingleton('customer/customer')->load($data->getSellerId())->getEmail();
+?>
+
+<tr class="even pointer" onclick="setLocation('<?php echo Mage::helper("adminhtml")->getUrl('storesetup/adminhtml_store/reportsview',array('id'=>$data->getId()))?>')"  title="<?php echo $data->getStoreDisplayName()?>">
+            
+<td class="a-right a-right "><?php //echo $data->getId();
+                                  echo $data->getStoreName();
+?> </td>
+
+
+ 
+ <td class=" "> <?php echo Mage::getSingleton('core/store')->load($data->getStoreName())->getName();?> </td>
+  <td class=" "> <?php 
+  /* Edited by retailon_15052 start */
+   
+  
+  
+  
+    $get_seller_category=$data->getStoreCategory();
+   
+    $resource = Mage::getSingleton('core/resource');
+      $readConnection = $resource->getConnection('core_read');
+
+     $allproductids = "SELECT product_id FROM catalog_category_product where category_id=$get_seller_category ";
+     $allproductresult = $readConnection->fetchAll($allproductids);
+     $prdIds =array();
+     foreach($allproductresult as $value4)
+      {
+    $prdIds[]=$value4['product_id'];
+      }
+ 
+    $no_of_ele=count($prdIds);
+    $sum=0;
+     $all_order_id_array=array();
+     $kk=0;
+     $allincrementids = "SELECT increment_id FROM sales_flat_order_grid where status='complete' ";
+     $allincrresult = $readConnection->fetchAll($allincrementids);
+     $incr_id_array =array();
+     foreach($allincrresult as $value)
+      {
+    $incr_id_array[]=$value['increment_id'];
+      }
+
+     foreach($incr_id_array as $value1)
+     {
+         $j=0;
+     	$orderIncrementId =$value1;
+        $order = Mage::getModel('sales/order')->loadByIncrementId($orderIncrementId);
+        $required_order_id=$order->getId();       
+        $items = $order->getAllVisibleItems();
+          foreach($items as $value2)
+            {
+   	        $ids[$j++]=$value2->getProductId();   	
+            } 
+           
+
+         
+          foreach($ids as $value3)
+           {
+           	 for($i=0;$i<$no_of_ele;$i++)
+           	   {
+           	      if($value3==$prdIds[$i])
+           	      {
+           	      	
+           	      	$amount="SELECT base_row_total_incl_tax,order_id FROM sales_flat_order_item where order_id=$required_order_id and product_id=$value3 ";
+           	      	$temp1=$readConnection->fetchAll($amount);
+           	      	 foreach($temp1 as $value12)
+           	      	  {
+           	      	    $sum+=$value12['base_row_total_incl_tax'];
+           	      	    $all_order_id_array[$kk++]=$value12['order_id'];
+           	      	 }
+           	      }
+           	   }
+           }  
+           
+     }
+  
+ $avgorders_array=array_unique($all_order_id_array);
+
+
+$lifetimesales = $sum;
+
+$avgorders=$lifetimesales/count($avgorders_array);
+
+ 
+   /* Edited by retailon_15052 end */
+echo Mage::helper('core')->currency($lifetimesales, true, false);  
+  
+  ?> </td>
+    <td class=" "> <?php 
+   
+    echo Mage::helper('core')->currency($avgorders, true, false);
+    ?></td>
+ 
+  <td class=" "> <?php $storeid=$data->getStoreName();
+ $resource = Mage::getSingleton('core/resource');
+$readConnection = $resource->getConnection('core_read');
+  $visits = "SELECT log_id from log_customer where store_id=$storeid";
+$strVisits= $readConnection->fetchAll($visits);
+echo count($strVisits);
+   ?> </td>
+
+<td class=" "><a href="<?php echo Mage::helper("adminhtml")->getUrl('storesetup/adminhtml_store/reportsview',array('id'=>$data->getId()))?>">View Report</a> </td>
+</tr>
+<?php endforeach; ?>
+ </tbody>
+
+    </table>
+    </div>
+</div>
+</div>

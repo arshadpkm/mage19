@@ -1,0 +1,123 @@
+<?php 
+$req = $this->getRequest()->getParams();
+
+$storeconfId = $req['id'];
+
+$dat = Mage::getSingleton('storeconf/storeconf')->load($storeconfId);
+
+$back = Mage::helper('adminhtml')->getUrl('storesetup/adminhtml_store/lists');
+
+
+?>
+
+<div id="page:main-container">
+                            <div id="messages"></div>
+                <div class="content-header">
+    <h3 class="icon-head head-system-store">Delete Store - '<?php echo $dat->getStoreDisplayName() ?>'</h3>   
+     <p class="form-buttons">
+     <button id="" title="Back" type="button" class="scalable back" onclick="setLocation('<?php echo $back ?>');" style=""><span><span><span>Back</span></span></span></button>
+     <button id="<?php echo $dat->getId()?>" title="Delete Store" type="button" class="scalable delete" onclick="deleteFunc(this.id);" style=""><span><span><span>Delete Store</span></span></span></button></p>
+</div>
+<div class="entry-edit">
+    <form id="" action="" method="post"><div><input name="form_key" value="" type="hidden"></div><div class="entry-edit-head">
+    <h4 class="icon-head head-edit-form fieldset-legend">Store Information</h4>
+    <div class="form-buttons"></div>
+</div>
+    <div class="fieldset " id="group_fieldset">
+    <div class="hor-scroll">
+                   <table class="form-list" cellspacing="0">
+            <tbody><tr>
+                <td class="label"><label>Store Id</label></td>
+                <td class="value"><strong><?php echo $dat->getId()?></strong></td>
+            </tr>
+                <tr>
+                <td class="label"><label>Seller Name</label></td>
+                <td class="value"><strong><span id="order_status"></span><?php echo $dat->getSellerName()?></strong></td>
+            </tr>
+                <tr>
+                <td class="label"><label>Seller Email</label></td>
+                <td class="value"><strong><span id="order_status"></span><?php echo $dat->getSellerEmail()?></strong></td>
+            </tr>
+                        <tr>
+                <td class="label"><label>Store Name</label></td>
+                <td class="value"><strong><span id="order_status"></span><?php echo $dat->getStoreDisplayName()?></strong></td>
+            </tr>
+             <tr>
+                <td class="label"><label>Store Created date</label></td>
+                <td class="value"><strong><?php echo $dat->getCreatedDate()?></strong></td>
+            </tr>
+            <tr>
+                <td class="label"><label>Store Email</label></td>
+                <td class="value"><strong><?php echo $dat->getStoreEmail()?></strong></td>
+            </tr>
+                                                <tr>
+                <td class="label"><label>Store Contact</label></td>
+                <td class="value"><strong><?php echo $dat->getStoreContact()?></strong></td>
+            </tr>
+            
+           
+                                                </tbody></table>
+            </div>
+        </div>
+<input id="store_type" name="store_type" value="group" type="hidden">
+<input id="store_action" name="store_action" value="edit" type="hidden">
+</form>
+<div id="wait" style="display:none;width:69px;height:113px;position:fixed;top:50%;left:50%;padding:2px;"><img src='<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_MEDIA) ?>ajax-loader.gif' width="64" height="64" /><br>Loading...</div>
+</div>
+<script type="text/javascript" src="<?php echo Mage::getBaseUrl(Mage_Core_Model_Store::URL_TYPE_JS).'jquery.js'?>"></script>
+<script type="text/javascript">
+jQuery.noConflict();
+
+    editForm = new varienForm('edit_form', '');
+ 
+ function deleteFunc(id)
+ {
+ 
+  // alert(id);
+ jQuery(document).ajaxStart(function(){
+        jQuery("#wait").css("display", "block");
+    });
+    
+ jQuery.ajax(
+{
+    type : "GET",
+    
+    url : "<?php echo Mage::helper('adminhtml')->getUrl('storesetup/adminhtml_store/confdelete') ?>id/"+id,
+    success:function(data)
+    {
+      if(data == 'yes')
+    {
+	alert('The Store was Deleted Successfully');
+        setLocation("<?php echo $back; ?>");
+
+    }
+    if(data == 'no')
+    {
+       alert('Cannot Delete this Store -Check for Transcations and Store Products');
+    } 
+   
+
+    }
+
+});
+
+    jQuery(document).ajaxComplete(function(){
+        jQuery("#wait").css("display", "none");
+    });
+ 
+ }   
+  /*  jQuery.ajax
+{
+    type : "GET",
+    url : "<?php echo Mage::getUrl('checkout/cart/delete/') ?>id/"+aa,
+    success:function(data){
+        
+
+    }
+
+}); */
+    
+    
+</script>
+                        </div>           </div>
+               

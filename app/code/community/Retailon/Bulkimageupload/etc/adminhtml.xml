@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<config>
+    <menu>
+        <parent translate="title" module="retailon_bulkimageupload">
+            <title>Upload</title>
+            <sort_order>100</sort_order>
+            <children>
+                <children>
+                    <title>Product Images</title>
+                    <action>upload/adminhtml_index</action>
+                </children>
+            </children>
+        </parent >
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <parent translate="title" module="retailon_bulkimageupload">
+                        <title>Upload</title>
+                        <sort_order>100</sort_order>
+                        <children>
+                            <children>
+                                <title>Product Images</title>
+                            </children>
+                        </children>
+                    </parent>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

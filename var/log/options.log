@@ -1,0 +1,120 @@
+2015-05-28T10:22:03+00:00 DEBUG (7): configurable
+2015-05-28T10:22:03+00:00 DEBUG (7): Array
+(
+    [92] => 26
+    [180] => 79
+)
+
+2015-05-28T10:22:05+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:22:05+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvd29tZW4vdG9wcy1ibG91c2VzL3RvcmktdGFuay00OTEuaHRtbD9fX19TSUQ9VQ,,
+    [product] => 418
+    [form_key] => EgwcqSFFC5tOvsgS
+    [related_product] => 
+    [super_attribute] => Array
+        (
+            [92] => 26
+            [180] => 79
+        )
+
+    [qty] => 1
+)
+
+2015-05-28T10:22:07+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:22:07+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvbWFnZW50by5odG1sP19fX1NJRD1V
+    [product] => 906
+    [form_key] => EgwcqSFFC5tOvsgS
+    [related_product] => 
+    [options] => Array
+        (
+            [7] => 3
+        )
+
+    [qty] => 1
+)
+
+2015-05-28T10:27:46+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:27:46+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvd29tZW4vdG9wcy1ibG91c2VzL3RvcmktdGFuay00OTEuaHRtbD9fX19TSUQ9VQ,,
+    [product] => 418
+    [form_key] => EgwcqSFFC5tOvsgS
+    [related_product] => 
+    [super_attribute] => Array
+        (
+            [92] => 26
+            [180] => 79
+        )
+
+    [qty] => 1
+)
+
+2015-05-28T10:27:48+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:27:48+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvbWFnZW50by5odG1sP19fX1NJRD1V
+    [product] => 906
+    [form_key] => EgwcqSFFC5tOvsgS
+    [related_product] => 
+    [options] => Array
+        (
+            [7] => 3
+        )
+
+    [qty] => 1
+)
+
+2015-05-28T10:27:50+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:27:50+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvbWFnZW50by05MDguaHRtbD9fX19TSUQ9VQ,,
+    [product] => 908
+    [form_key] => vYOs2eGVFoJnXcmX
+    [related_product] => 
+    [qty] => 1
+)
+
+2015-05-28T10:34:54+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:34:54+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvd29tZW4vdG9wcy1ibG91c2VzL3RvcmktdGFuay00OTEuaHRtbD9fX19TSUQ9VQ,,
+    [product] => 418
+    [form_key] => EgwcqSFFC5tOvsgS
+    [related_product] => 
+    [super_attribute] => Array
+        (
+            [92] => 26
+            [180] => 79
+        )
+
+    [qty] => 1.0000
+)
+
+2015-05-28T10:34:56+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:34:56+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvbWFnZW50by5odG1sP19fX1NJRD1V
+    [product] => 906
+    [form_key] => EgwcqSFFC5tOvsgS
+    [related_product] => 
+    [options] => Array
+        (
+            [7] => 3
+        )
+
+    [qty] => 1.0000
+)
+
+2015-05-28T10:34:58+00:00 DEBUG (7): info_buyRequest
+2015-05-28T10:34:58+00:00 DEBUG (7): Array
+(
+    [uenc] => aHR0cDovL21hZ2UxOS5kZXYvbWFnZW50by05MDguaHRtbD9fX19TSUQ9VQ,,
+    [product] => 908
+    [form_key] => vYOs2eGVFoJnXcmX
+    [related_product] => 
+    [qty] => 1.0000
+)
+

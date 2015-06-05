@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+  <storeconf_adminhtml_storeconf_index>
+	<reference name="content">
+	  <block type="storeconf/adminhtml_storeconf" name="storeconf" />
+	</reference>
+  </storeconf_adminhtml_storeconf_index>
+    <storeconf_adminhtml_store_index>
+        <reference name="content">
+            <block type="storeconf/adminhtml_store" name="" template="seller/store.phtml" />
+        </reference>
+    </storeconf_adminhtml_store_index>
+</layout>
